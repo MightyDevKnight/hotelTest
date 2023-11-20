@@ -1,0 +1,53 @@
+.custom-input-number-container {
+  display: flex;
+  align-items: center;
+}
+
+.custom-input-number-button {
+  margin: 8px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 48px;
+  height: 48px;
+  font-size: 40px;
+  color: rgb(104, 124, 236);
+  font-weight: lighter;
+  background-color: #fff;
+  border-color: rgb(104, 124, 236);
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.custom-input-number-input {
+  width: 46px;
+  height: 46px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #fff;
+  border-color: rgb(131, 128, 128);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.custom-input-number-button:hover {
+  background-color: #e1e1e1;
+}
+
+.custom-input-number-button:active {
+  background-color: #c1c1c1;
+}
+
+.custom-input-number-button:disabled {
+  opacity: 0.5;
+}
